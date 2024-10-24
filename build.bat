@@ -1,0 +1,1 @@
+jar cfm ./build/kasir-cli.jar manifest.txt -C class .
