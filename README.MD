@@ -15,10 +15,11 @@ Kasir-Cli
 └───src
     └───com
         └───sergihen7
-            │
-            ├───application
-            │   │
-            │   └───collections
-            │
-            └───models
+            └───kasircli
+                │
+                ├───application
+                │   │
+                │   └───collections
+                │
+                └───models
 ```
