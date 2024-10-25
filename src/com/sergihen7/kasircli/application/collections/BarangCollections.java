@@ -1,8 +1,9 @@
 package com.sergihen7.kasircli.application.collections;
 
-import com.sergihen7.kasircli.models.Barang;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.sergihen7.kasircli.application.models.Barang;
 
 public class BarangCollections {
 

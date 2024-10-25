@@ -1,4 +1,4 @@
-package com.sergihen7.kasircli.models;
+package com.sergihen7.kasircli.application.models;
 
 public class Barang {
   public int id;
