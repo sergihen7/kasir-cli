@@ -65,7 +65,7 @@ public class Kasir {
                         int index = Integer.parseInt(input);
                         _addKeranjang(index - 1, bc);
                     } catch (NumberFormatException e) {
-                        messages = messages = "Invalid Input";
+                        messages = "Invalid Input";
                     }
                 }
             }
