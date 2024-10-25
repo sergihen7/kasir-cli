@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.sergihen7.ext.KalkuKasir;
 import com.sergihen7.kasircli.application.collections.BarangCollections;
+import com.sergihen7.kasircli.application.etc.Alert;
 
 public class Kasir {
 
@@ -16,6 +17,7 @@ public class Kasir {
     public static String messages;
 
     public static void start() {
+        Alert.format = format;
 
         Kasir.listKeranjang = new ArrayList<>();
 
@@ -24,9 +26,7 @@ public class Kasir {
             System.out.print("\033\143");
 
             if (messages != null) {
-                System.out.format("+=====================================================+%n");
-                System.out.format(format, messages);
-                System.out.format("+=====================================================+%n");
+                Alert.out(messages);
             }
             messages = null;
 
@@ -120,9 +120,7 @@ public class Kasir {
             System.out.print("\033\143");
 
             if (messages != null) {
-                System.out.format("+=====================================================+%n");
-                System.out.format(format, messages);
-                System.out.format("+=====================================================+%n");
+                Alert.out(messages);
             }
             messages = null;
 
