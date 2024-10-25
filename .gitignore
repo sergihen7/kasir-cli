@@ -1,5 +1,14 @@
+# Folders
 /bin/*
 /build/*
 
+
 !/bin/.gitkeep
 !/build/.gitkeep
+
+
+# Bat Files
+build.bat
+build-win.bat
+run.bat
+run-win.bat
