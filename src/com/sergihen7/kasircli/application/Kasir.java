@@ -1,10 +1,10 @@
-package com.sergihen7.application;
+package com.sergihen7.kasircli.application;
 
-import com.sergihen7.application.collections.BarangCollections;
-import com.sergihen7.models.Barang;
+import com.sergihen7.kasircli.models.Barang;
 import java.util.ArrayList;
 import java.util.List;
 import com.sergihen7.ext.KalkuKasir;
+import com.sergihen7.kasircli.application.collections.BarangCollections;
 
 public class Kasir {
 
